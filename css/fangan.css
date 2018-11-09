@@ -1,0 +1,69 @@
+.content{
+	height: 1060px;
+   	width: 100%;
+   	background:#fff;
+   	
+}
+.content .container{
+	background:#f2f2f2;
+}
+.content-main{
+	width: 950px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.content-tit{
+	height: 45px;
+    line-height: 45px;
+    color: #2e2e2e;
+    text-align: right;
+}
+.content-tit a{
+	color: #797979;
+	font-size: 14px;
+}
+.content-tit span{
+	font-size: 14px;
+}
+.jiejue-tit{
+	border-top: 1px solid #cbcbcb;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 17px;
+    font-size: 24px;
+    color: #064738;
+    position: relative;
+    text-indent: 2px;
+    font-weight: normal;
+    position: relative;
+}
+.jiejue-tit span{
+	display: block;
+	width: 100px;
+	height: 2px;
+	position: absolute;
+	top: -2px;
+	background: black;
+}
+.jishu-item{
+	float: left;
+	overflow: hidden;
+}
+.jishu-item dt{
+	font-size: 18px;
+    color: #064738;
+    padding: 0 0 15px;
+}
+.jishu-item dd{
+	float: left;
+	width: 306px;
+	height: 150px;
+	position: relative;
+	margin:0 10px 10px 0;
+    border: 0px solid #fff;
+}
+.jishu-item dd img{
+	width: 306px;
+	height: 150px;
+}
