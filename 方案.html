@@ -6,8 +6,8 @@
 		<title></title>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
-		<link rel="stylesheet" type="text/css" href="css/lvmeng.css" />
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/fangan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common2.css" />
 	</head>
 
 	<body>
@@ -54,7 +54,7 @@
 							<div class="h-line"></div>
 						</li>
 						<li>
-							<a href="方案.html">解决方案
+							<a>解决方案
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -89,7 +89,7 @@
 							</dl>
 						</li>
 						<li>
-							<a href="安全.html">安全产品
+							<a>安全产品
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -108,7 +108,7 @@
 							</dl>
 						</li>
 						<li class="sever">
-							<a href="服务支持.html">服务与支持
+							<a>服务与支持
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -140,7 +140,7 @@
 							</dl>
 						</li>
 						<li>
-							<a href="绿盟云.html">绿盟云
+							<a>绿盟云
 							</a>
 							<div class="h-line"></div>
 						</li>
@@ -157,7 +157,7 @@
 							</dl>
 						</li>
 						<li class="yanjiu">
-							<a href="安全研究-研究方向.html">安全研究
+							<a>安全研究
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -184,7 +184,7 @@
 							</dl>
 						</li>
 						<li>
-							<a href="关于我们.html">关于我们</a>
+							<a>关于我们</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
 								
@@ -233,284 +233,42 @@
 				})
 			</script>
 			<!--导航结束-->
-			<div class="banner">
+			<div class="content">
 				<div class="container">
-					<div class="banner-box">
-						<ul class="ban-items">
-							<li>
-								<img src="img/5b32e52a96a47.png" />
-							</li>
-							<li>
-								<img src="img/5afa54bf9a866.jpg" />
-							</li>
-							<li>
-								<img src="img/5b8ddb3be4d37.png" />
-							</li>
-							<li>
-								<img src="img/5b7113c461dd5.jpg" />
-							</li>
-							<li>
-								<img src="img/5ae027997b1fe.jpg" />
-							</li>
-							<li>
-								<img src="img/5ad44b890af9d.jpg" />
-							</li>
-							<li>
-								<img src="img/5ac1df39ebca1.jpeg" />
-							</li>
-							<li>
-								<img src="img/5a5f14c8a08dc.png" />
-							</li>
-						</ul>
-						<ol class="ban-tabs">
-							<li class="on">
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-							<li>
-							</li>
-						</ol>
+					<div class="content-main">
+						<div class="content-tit">
+							<a href="javascript:;">首页</a>
+							->
+							<span>解决方案</span>
+						</div>
+						<h2 class="jiejue-tit">
+							<span></span>
+							解决方案</h2>
+					    <dl class="jishu-item">
+					    	<dt>技术解决方案</dt>
+					    	<dd><img src="img/5940af667d6d2.png"/></dd>
+					    	<dd><img src="img/sol_img12.jpg"/></dd>
+					    	<dd><img src="img/sol_img11.jpg"/></dd>
+					    	<dd><img src="img/sol_img13.jpg"/></dd>
+					    	<dd><img src="img/sol_img14.jpg"/></dd>
+					    	<dd><img src="img/5940ab0969f5c.jpg"/></dd>
+					    	<dd><img src="img/error.jpg"/></dd>
+					    </dl>
+					     <dl class="jishu-item">
+					    	<dt>行业解决方案</dt>
+					    	<dd><img src="img/5563e3cc6f087.jpg"/></dd>
+					    	<dd><img src="img/53ba458ad9b35.jpg"/></dd>
+					    	<dd><img src="img/sol_img02.jpg"/></dd>
+					    	<dd><img src="img/sol_img03.jpg"/></dd>
+					    	<dd><img src="img/sol_img06.jpg"/></dd>
+					    	<dd><img src="img/sol_img07.jpg"/></dd>
+					    </dl>
 					</div>
-					<span class="btn-left"></span>
-					<span class="btn-right"></span>
+				
 				</div>
 			</div>
-			<script type="text/javascript">
-				$(function() {
-					var num = 0
-					var timer = null
-					$(".ban-tabs li").on("click", function() {
-						var index = $(this).index()
-						num = index
-						$(".ban-tabs li").attr("class", "")
-						$(this).attr("class", "on")
-						$(".banner-box ul").animate({
-							"left": -num * ($(".banner-box ul li").eq(0).width())
-						})
-					})
-
-					function move() {
-						num++
-						if(num > $(".banner-box ul li").length - 1) {
-							num = 0
-						}
-						$(".banner-box ul").animate({
-							"left": -num * ($(".banner-box ul li").eq(0).width())
-						})
-						$(".ban-tabs li").eq(num).trigger("click")
-					}
-					$(".banner-box").mouseover(function() {
-						clearInterval(timer)
-					})
-					$(".banner-box").mouseout(function() {
-						timer = setInterval(move, 2000)
-					})
-					$(".banner span").mouseover(function() {
-						clearInterval(timer)
-					})
-					$(".banner span").mouseout(function() {
-						timer = setInterval(move, 2000)
-					})
-					$(".btn-left").click(function() {
-						num--
-						if(num < 0) {
-							num = $(".banner-box ul li").length - 1
-						}
-						$(".ban-tabs li").attr("class", "")
-						$(".ban-tabs li").eq(num).attr("class", "on")
-						$(".banner-box ul").animate({
-							"left": -num * ($(".banner-box ul li").eq(0).width())
-						})
-					})
-					$(".btn-right").click(function() {
-						num++
-						if(num > $(".banner-box ul li").length - 1) {
-							num = 0
-						}
-						$(".ban-tabs li").attr("class", "")
-						$(".ban-tabs li").eq(num).attr("class", "on")
-						$(".banner-box ul").animate({
-							"left": -num * ($(".banner-box ul li").eq(0).width())
-						})
-					})
-					timer = setInterval(move, 2000)
-				})
-			</script>
-			<!--banner图结束-->
-			<div class="out-banner">
-				<div class="container">
-					<div class="news-scroll">
-						<span class="news-tit">
-							新闻介绍:
-						</span>
-						<a href="javascript:;" class="news-btn slidePrev">
-
-						</a>
-						<a href="javascript:;" class="news-btn slideNext">
-
-						</a>
-						<div class="news-banner">
-							<div class="news-main">
-								<p>
-									<a href="javascript:;">下一代威胁防御解决方案 (NGTP)</a>
-									<a href="javascript:;">云计算安全解决方案</a>
-									<a href="javascript:;">绿盟安全态势感知解决方案(TSA)</a>
-								</p>
-								<p>
-									<a href="javascript:;">绿盟威胁分析溯源解决方案 </a>
-									<a href="javascript:;">绿盟下一代防火墙系统 NF</a>
-									<a href="javascript:;">绿盟下一代安全云桌面系统(NGSD) </a>
-								</p>
-							</div>
-						</div>
-					</div>
-					<script type="text/javascript">
-						$(function(){
-							var now=0
-							var stimer=null
-							$(".slidePrev").click(function(){
-								now++
-								if(now>$(".news-main p").length-1){
-									now=0
-								}
-								$(".news-main").animate({"left":now*-$(".news-main p").eq(0).width()},1000)
-							})
-							$(".slidePrev").click(function(){
-								now--
-								if(now<0){
-									now=$(".news-main p").length-1
-								}
-								$(".news-main").animate({"left":now*-$(".news-main p").eq(0).width()},1000)
-							})
-						})
-					</script>
-					<!--新闻滚动结束-->
-					<div class="bnews_box">
-						<div class="bnews-item">
-							<a href="javascript:;" class="bnews-tit">公司新闻</a>
-							<div class="bnews-content one">
-								<img src="img/5a5f02d662055.png" />
-								<p class="news-txt">
-									<a href="javascript:;">
-										新时代·新融合 | 绿盟科技亮相2018海南互联网大...
-									</a>
-									<br />
-									<a href="javascipt:;">直击HITB | 绿盟科技格物实验室专家讲了这些干货</a>
-									<br />
-									<a href="javascript:;">绿盟科技闪耀2018保密技术交流大会暨产品博览会</a>
-								</p>
-							</div>
-
-						</div>
-						<div class="bnews-item">
-							<a href="javascript:;" class="bnews-tit tit1">威胁响应</a>
-							<div class="bnews-content">
-								<img src="img/banner_141.jpg" />
-								<p class="news-txt">
-									<a href="javascript:;">
-										WebLogic远程代码执行漏洞CVE-2018-3191 威胁预...
-									</a>
-									<br />
-									<a href="javascipt:;">Libssh服务器端身份验证绕过漏洞CVE-2018-10933 ...</a>
-									<br />
-									<a href="javascript:;">Weblogic远程代码执行漏洞CVE-2018-3245 威胁预...</a>
-								</p>
-							</div>
-
-						</div>
-						<div class="bnews-item">
-							<a href="javascript:;" class="bnews-tit tit1">研究报告</a>
-							<div class="bnews-content">
-								<img src="img/5a5f02d662055.png" />
-								<p class="news-txt">
-									<a href="javascript:;">
-										2018上半年网络安全观察
-									</a>
-									<br />
-									<a href="javascipt:;">2017网络安全观察</a>
-									<br />
-									<a href="javascript:;">2017DDoS与Web应用攻击态势报告</a>
-								</p>
-							</div>
-
-						</div>
-					</div>
-					<!--大块新闻结束-->
-					<div class="share">
-						<ul>
-							<li>
-								<a href="javascript:;" class="icon zixun"></a>
-								<span>客服咨询</span>
-							</li>
-							<li>
-								<a href="javascript:;" class="icon sina"></a>
-								<span>技术博客</span>
-							</li>
-							<li>
-								<a href="javascript:;" class="icon wechat"></a>
-								<span>官方微信</span>
-							</li>
-
-						</ul>
-					</div>
-					<!--分享结束-->
-					<div class="event">
-						<h3 class="ev-tit">活动动态</h3>
-						<div class="ev-contant">
-							<div class="ev-list">
-								<a href="javascript:;" class="ev-biaoti">
-									智慧安全2.0—新形势下安全运营体系建设
-								</a>
-								<a href="javascript:;">
-									<img src="img//5b8e356b27415.png" />
-								</a>
-								<p>
-									<a href="javascript:;">详情</a>
-									<br /> 2018 09-04
-								</p>
-							</div>
-						</div>
-						<div class="ev-contant">
-							<div class="ev-list">
-								<a href="javascript:;" class="ev-biaoti">
-									“绿盟杯”2018宁波首届网络安全大赛圆满收...
-								</a>
-								<a href="javascript:;">
-									<img src="img//5b765b4c135ed.jpg" />
-								</a>
-								<p>
-									<a href="javascript:;">详情</a>
-									<br /> 2018 09-04
-								</p>
-							</div>
-						</div>
-						<div class="ev-contant">
-							<div class="ev-list">
-								<a href="javascript:;" class="ev-biaoti">
-									2018CCF-绿盟科技“鲲鹏”科研基金
-								</a>
-								<a href="javascript:;">
-									<img src="img//59433559ed550.jpg" />
-								</a>
-								<p>
-									<a href="javascript:;">详情</a>
-									<br /> 2018 09-04
-								</p>
-							</div>
-						</div>
-					</div>
-					<!--事件结束-->
-					<div class="foot-list">
+			
+			<div class="foot-list">
 						<div class="container">
 							<dl class="foot-item">
 								<dt>
@@ -647,9 +405,7 @@
 							</dl>
 						</div>
 					</div>
-				</div>
-
-			</div>
+	
 			<!--主题结束-->
 			<div class="footer">
 				<div class="container">

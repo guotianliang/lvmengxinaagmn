@@ -1,0 +1,242 @@
+.column_left{
+	width: 642px;
+	float:left ;
+}
+.column_left>h3{
+	font-size: 18px;
+    color: #064738;
+    padding: 0 0 15px;
+    font-weight: normal;
+}
+.left-item{
+	width: 333px;
+    height: 184px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    background: #f3f3f3;
+    padding: 0 16px;
+    font-size: 12px;
+    float: left;
+    margin: 0 0 9px;
+    overflow: hidden;
+}
+.left-item>h4{
+	font-size: 14px;
+    color: #064738;
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+}
+.left-txt{
+	line-height: 20px;
+    color: #6f6f6f;
+    height: 100px;
+    overflow: hidden;
+}
+.xiangqing{
+	text-align: right;
+}
+.left-item2{
+	/*border: 0;*/
+    width: 250px;
+    height: 186px;
+    background: #f3f3f3;
+    float: right;
+    /*padding: 0;*/
+    border: 1px solid #d7d7d7;
+    padding: 0 1px;
+}
+.left-item2>h4>span{
+	font-weight: normal;
+    font-size: 12px;
+    float: right;
+    color: #666;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.left-content{
+	height: 137px;
+    padding: 0 6px;
+    line-height: 20px;
+    color: #6f6f6f;
+    overflow: hidden;
+}
+.left-content .list{
+	line-height: 22px;
+    font-size: 12px;
+    float: right;
+    width: 127px;
+    overflow: hidden;
+      
+}
+.left-content .list li{
+	background: url(../img/about_list_ico.jpg) no-repeat left center;
+    padding-left: 14px;
+    height: 22px;
+    overflow: hidden;
+}
+.left-item3{
+	height: 136px;
+    width: 267px;
+    position: relative;
+    padding: 0;
+    border-color: #fff;
+}
+.left-content h4{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 237px;
+	background:rgba(221,223,54,0.3) ;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #064738;
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+}
+.left-content h4 span{
+	float: right;
+	font-size: 12px;
+	cursor: pointer;
+}
+.left-item4{
+	height: 136px;
+    width: 353px;
+    position: relative;
+    padding: 0;
+    float: right;
+    border-color: #fff;
+}
+.left-item4 .left-content{
+	height: 136px;
+	line-height: 20px;
+    color: #6f6f6f;
+    overflow: hidden;
+}
+.left-item4 .left-content h4{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 78px;
+    height: 136px;
+    background: url(../img/about_bg2.png) no-repeat left top;
+    padding: 0 0 0 15px;
+}
+.left-item5{
+	border: 1px solid #d7d7d7;
+    border-radius: 5px;
+	width: 603px;
+    padding: 0 18px;
+    border-color: #fff;
+    height: 85px;
+    background: url(../img/support_05.png) repeat-x;
+    font-size: 12px;
+    float: left;
+    margin: 0 0 9px;
+    overflow: hidden;
+}
+.lunbo-box{
+	position: relative;
+	height: 35px;
+    padding: 4px;
+    line-height: 14px;
+    overflow: hidden;
+}
+.left-lunbo{
+	    height: 35px;
+    padding: 4px;
+    line-height: 14px;
+}
+.btn-left{
+	padding: 0 24px 0 0;
+	cursor: pointer;
+	float: left;
+}
+.btn-right{
+	display: block;
+	padding: 0 0px 0 24px;
+	cursor: pointer;
+	float:right;
+}
+.lunbo-box{
+	width: 514px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.lunbo-box ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 650px;
+}
+.lunbo-box ul li{
+	float: left;
+	padding-right: 20px;
+}
+.column_right{
+	width: 294px;
+	float: right;
+}
+.column_right h3{
+	font-size: 18px;
+    color: #064738;
+    padding: 0 0 15px;
+    font-weight: normal;
+}
+.right-item{
+	width: 262px;
+    height: 174px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: url(../img/support_05.png);
+    padding: 0 15px;
+    font-size: 12px;
+    float: left;
+    margin: 0 0 8px;
+    overflow: hidden;
+}
+.right-txt{
+	line-height: 20px;
+    color: #6f6f6f;
+    height: 125px;
+    overflow: hidden;
+}
+.right-list>li{
+	height: 40px;
+}
+.right-list>li a{
+	float: left;
+	overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #a39788;
+}
+.right-item2{
+	width: 262px;
+	height: 122px;
+    background: #f3f3f3;
+    border: 1px solid #d7d7d7;
+}
+.right-item2 .right-txt{
+height: 72px;
+}
+.right-item3{
+	height: 51px;
+	background: url(../img/about_bg3.jpg) repeat-x;
+}
+.right-item3>h3{
+	height: 51px;
+	float: right;
+    line-height: 51px;
+}
+.right-item3>h3>a{
+	 color: #fff;
+    padding-right: 25px;
+    background: url(../img/more_bg.png) no-repeat right center;
+}
+.right-item4{
+	height: 51px;
+	background: #8a9aa7;
+}

@@ -1,0 +1,115 @@
+.inheader{
+	margin-bottom: 0px;
+	box-shadow: 0 -1px 5px #bbb;
+}
+.inheader .center{
+	margin-top: 18px;
+}
+/* 中心部分 */
+.title{
+	height: 48px;
+    color: #064738;
+    font-size: 18px;
+}
+.column_right p img{
+	width: 600px;
+	height: 424px;
+}
+.vulc_tit{
+	height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #8a9aa7;
+    color: #000;
+    margin: 6px 0;
+}
+.enterprise_hd {
+    border-bottom: 1px dotted #b6b6b6;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 0 0 20px;
+    padding: 0 0 15px;
+}
+.enterprise_hd .t {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: url(../img/4.img/partners01.png) no-repeat;
+    color: #fff;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+.enterprise_hd .c {
+    float: left;
+    padding: 5px 0 0;
+}
+.enterprise_hd .c a {
+    color: #636363;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin: 0 2px;
+	font-size: 16px;
+}
+.enterprise_hd .c a:hover{
+	background-color: #FFFFFF;
+}
+.a-y{
+	overflow: hidden;
+}
+.a-y li{
+	margin: 30px 0 0;
+}
+.a-y li:first-child{
+	margin: 0px;
+}
+.a-y li h2{
+	color: #064738;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 18px;
+}
+.aa{
+	width: 710px;
+	/* height: 223px; */
+	/* background-color: yellow; */
+}
+.aa1{
+	overflow: hidden;
+	color: #3d3d3d;
+	margin:0px;
+}
+.aa img{
+	width: 148px;
+    height: 104px;
+    float: left;
+}
+.text{
+	float: right;
+	width: 530px;
+	padding: 20px 0 0;
+	color: #636363;
+}
+.text .t{
+	font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+.aa2{
+	overflow: hidden;
+    color: #3d3d3d;
+    margin: 15px 0 0;
+}
+.text p a{
+	font-family: arial;
+    color: #636363;
+}
+/* 安全研究-研究方向 */
+.contents img{
+	width: 710px;
+	height: 109px;
+}

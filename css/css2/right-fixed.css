@@ -1,0 +1,93 @@
+/*右边 固定栏 */
+.method{
+	position: fixed;
+    right: 0;
+    bottom: 90px;
+    width: 40px;
+	height: 220px;
+	/* background-color: red; */
+    z-index: 1300;
+    cursor: pointer;
+}
+.method .five{
+	width: 40px;
+    background-color: rgba(111,186,44,0.9);
+    height: 40px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+	/* position: relative; */
+}
+.method .five1{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+    background-position: -241px -80px;
+}
+.method .five2{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+    background-position: -201px -160px;
+}
+.method .five3{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+	background-position: -241px -121px;
+}
+.method .five4{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+   background-position: -80px 0;
+}
+.method .five5{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+    background-position: 0 0;
+}
+.five a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: cornflowerblue;
+	text-align: center;
+	color: #FFFFFF;
+	display: none;
+}
+.five:hover a{
+	display: block;
+}
+.five:hover div{
+	display: block;
+}
+.box-show1{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+    background-position: 10px -155px;
+    width: 201px;
+    height: 68px;
+    position: absolute;
+    top: 40px;
+    right: 52px;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    background-repeat: no-repeat;
+    z-index: 1300;
+}
+.box-show2{
+	background-image: url(../../img/index_shortcut_all_spirit.png);
+    background-position: -119px -39px;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 70px;
+    right: 52px;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    background-repeat: no-repeat;
+    z-index: 1300;
+}
+.box-show3{
+	background-image:url(../../img/index_shortcut_all_spirit.png);
+    background-position: 0 -40px;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 70px;
+    right: 52px;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    background-repeat: no-repeat;
+    z-index: 1300;
+}

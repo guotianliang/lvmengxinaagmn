@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	float: left;
+}
+em,i{
+	font-style: normal;
+}
+body{
+	font-family:楷体 ;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-size: 14px;
+    font-family: "Microsoft Yahei", "微软雅黑", arial, "\5b8b\4f53";
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 94px;
+	background: #ffffff;
+}
+.center{
+	width: 1086px;
+	margin: 0 auto;
+	background: pink;
+}
+.language{
+	width: 100%;
+	height: 18px;
+    line-height: 18px;
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+.language-r{
+	width: 150px;
+	height: 24px;
+	float: right;
+	/* background-color: skyblue; */
+	padding-top: 6px;
+}
+
+.language-r ul li a{
+	font-size: 14px;
+	color: #004738;
+}
+.language-r ul li a:hover{
+	color: rgba(111,186,44,0.9);
+}
+.r1 .yuyan{
+	padding: 0 9px;
+	width: 56px;
+	display: inline-block;
+	background: url(../img/shouye.img/arrow.png)no-repeat 56px center;
+	text-align: center;
+}
+.r2 a{
+	text-align: right;
+	padding: 0px 10px;
+	background: url(../img/shouye.img/dot04.jpg)no-repeat left center;
+}
+.r1 .r1-list{
+	display: none;
+	width: 70px;
+	height: 42px;
+	border:  1px solid #004738;
+	background-color: #FFFFFF;
+	z-index: 100;
+	position: relative;
+}
+.r1-list a{
+	display: block;
+	width: 100%;
+	height: 21px;
+	line-height: 21px;
+	text-align: right;
+}
+/*  */
+.header-logo{
+	float: left;
+	padding-top: 10px;
+}
+.header-logo img{
+	width: 205px;
+	height: 30px;
+}
+.phonenumber{
+	width: 175px;
+	margin-top: 33px;
+	float: right;
+	margin-right: 0px;
+}
+.phonenumber .phone{
+	display: block;
+    width: 96%;
+    color: #6fba2c;
+    text-align: right;
+}
+.nav{
+	width: 688px;
+	height: 36px;
+	/* background-color: sandybrown; */
+	float: left;
+	padding-top: 22px;
+	line-height: 36px;
+}
+.nav li{
+	float: left;
+    width: 86px;
+    line-height: 36px;
+    font-size: 13px;
+    text-align: center;
+    background: none;
+    position: relative;
+    height: 54px;
+}
+.nav li a{
+	color: #064738;
+}
+.line{
+	border-bottom: 3px solid #6DBF23;
+    width: 52px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    display: none;
+}
+.nav li:hover .line{
+	display: block;
+}
+.nav li:hover a{
+	color: #6DBF23;
+}
+.nav li:hover .xiala{
+	display: block;
+}
+
+.nav li .xiala{
+	margin-left: 0;
+    position: absolute;
+    top: 54px;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    left: 0;
+    font-size: 12px;
+    width: 422px;
+    display: none;
+    padding: 0 0 0 33px;
+    border-top: none;
+    box-shadow: 0px 2px 5px #bbb;
+	z-index: 500;
+	line-height: 35px;
+}
+.xiala dd{
+	display: block;
+	margin-right: 34px;
+    float: left;
+    min-width: 171px;
+    text-align: left;
+	
+}
+.xiala1{
+	left: -180px;
+}
+.xiala1 dd{
+	margin-right:-31px;
+}
+.xiala2{
+	left: auto;
+    right: -217px;
+    width: 260px!important;;
+    padding: 20px 0 20px 33px;
+    padding-bottom: 20px!important;
+}
+.xiala3{
+	left: 0;
+    right: -25px;
+}
+.nav li .xiala a{
+		color: #666666;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.nav li .xiala a:hover{
+	color: #6DBF23;
+}
+.nav li .xiala p{
+	line-height: 20px;
+}

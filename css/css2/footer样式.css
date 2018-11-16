@@ -1,0 +1,38 @@
+/* footer 底部开始 */
+.footer{
+	width: 100%;
+    padding: 10px 0;
+    line-height: 26px;
+    font-size: 12px;
+    background: #F2F2F2;
+}
+.fixed{
+	float: left;
+    line-height: 26px;
+    margin-left: -12px;
+}
+.fixed li{
+		float: left;
+    padding: 0px 12px;
+    background: url(../../img/dot04.jpg) right center no-repeat;
+}
+.fixed li a{
+	color: #6fba2c;
+}
+.fixed li a:hover{
+	text-decoration: underline;
+}
+.copy{
+	color: #666666;
+	float: left;
+}
+.copy a{
+	color:#666666;
+}
+.footer .copy em{
+	text-transform: uppercase;
+}
+.footer .copy em:hover{
+	text-decoration: underline;
+}
+/* footer 底部结束 */

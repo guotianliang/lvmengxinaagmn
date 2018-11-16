@@ -2,11 +2,79 @@ html,body{
 	height: 100%;
 	width: 100%;
 }
+.donghua_1 img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.big{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 600%;
+	transition: top 0.5s;
+}
+.big-btn{
+	position: fixed;
+	top: 40%;
+	right: 0px;
+	z-index: 1111;
+}
+.big-btn>ol>li{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-right: 40px;
+	cursor: pointer;
+	position: relative;
+}
+.big-btn .inon{
+	background: hotpink;
+}
+.big-btn li span{
+	position: absolute;
+	text-align: right;
+	display: inline-block;
+	width: 80px;
+	top: -6px;
+	left: -94px;
+	color: white;
+	transition: all 0.5s;
+	display: none;
+}
 .ping-item{
 	height: 100%;
 	width: 100%;
+	/*display: none;*/
 	background: url(../img/index-content-0-bg0.jpg) no-repeat;
+	background-size: cover;
 }
+.pinpai-item2 img{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/all_spirit.png);
+    background-repeat: no-repeat;
+}
+.ping-2{
+	width: 100%;
+	height: 48px;
+}
+.ping-2 .pinpai-item{
+	margin-top: 10px;
+}
+
 .header{
 	width: 100%;
 	position: fixed;
@@ -31,7 +99,7 @@ html,body{
 	float: right;
 	margin-top:15px ;
 }
-.denglu a{
+.denglu>a{
 	display: inline-block;
 	color: white;
 	background: #6fba2c;
@@ -39,7 +107,7 @@ html,body{
 	border-radius: 5px;
 	font-size: 14px;
 }
-.denglu a:hover{
+.denglu>a:hover{
 	color:#6fba2c;
 	background: white;
 }
@@ -47,13 +115,13 @@ html,body{
 	float: right;
 	margin: 23px 30px 0px 0px;
 }
-.header-nav li{
+.header-nav>li{
 	float: left;
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
 }
-.header-nav li a{
+.header-nav>li>a{
 	display: block;
     font-size: 14px;
     text-decoration: none;
@@ -68,6 +136,57 @@ html,body{
     background-position: center bottom;
     background-repeat: repeat-x;
 }
+.lv-xiala{
+	position: absolute;
+	top: 40px;left: 0;
+	padding-right: 0px;
+    width: 192px;
+    z-index: 1100;
+    background-color: rgba(0, 0, 0, 0.9);
+    line-height: 30px;
+    display: none;
+}
+.lv-xiala>li{
+	line-height: 37px;
+    background-image: url(../img/product_service_menu_right.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 37px;
+}
+.lv-xiala>li:hover{
+	background: greenyellow;
+}
+.lv-xiala>li a{
+	color: #fff;
+}
+.xiala-xiala{
+	position: absolute;
+	top: 0;
+	left: 190px;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 16px;
+	display: none;
+}
+.xiala-xiala li{
+	display: block;
+    width: 199px;
+    height: 45px;
+    background-color: #333;
+
+    font-size: 14px;
+    line-height: 45px;
+    padding-left: 16px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.xiala-xiala li a{
+	color: #fff;
+}
+.xiala-xiala li:hover{
+	background: greenyellow;
+}
 .banner-wrap{
 	height: 360px;
 	position: relative;
@@ -76,6 +195,9 @@ html,body{
     z-index: 11;
     padding-top: 111.5px;
 }
+.banner-wrap .container{
+	overflow: hidden;
+}
 .banner-box{
 	position: absolute;
 	top: 0;
@@ -83,6 +205,32 @@ html,body{
 	overflow: hidden;
 	height: 360px;
 	width: 2880px;
+
+}
+.banner-fix{
+	width: 160px;
+    background-color: rgba(255,255,255,0.1);
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 788px;
+    z-index: 1100;
+}
+.banner-fix img{
+	    width: 103px;
+}
+.banner-fix h3{
+	margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.banner-f-m{
+	width: 100%;
+    position: absolute;
+    /* top: 230px; */
+    bottom: 0;
+    left: 0px;
+    text-align: center;
 }
 .banner-box li{
 	float: left;
@@ -124,4 +272,792 @@ html,body{
 }
 .ban-btn .active{
 	background:white;
+}
+.ihave{
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+}
+.ihave ul{
+	margin-top: 30px;
+}
+.ihave ul li{
+	width: 225px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+}
+.ihave ul li h2{
+	background-color: rgba(0,71,56,0.4);
+    width: 225px;
+    height: 102px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 44px;
+    box-sizing: border-box;
+}
+.ihave ul li h2 span{
+	display: inline-block;
+    font-size: 14px;
+    padding-bottom: 2px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.ihave ul li p{
+	background-color: #004738;
+    width: 225px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+}
+.ping-item2{
+	background: url(../img/index-content-2-bg0.jpg) no-repeat;
+	background-size: cover;
+}
+.product-main{
+	padding: 100px;
+	width: 712px;
+    height: 507px;
+    border: 1px solid transparent;
+    margin-left: 124px;
+    position: relative;
+}
+.pro-line{
+	/*height: 490px;*/
+	height: 0;
+	position: absolute;
+	bottom:50px;
+    left: 355px;
+    transition: height 1.5s ease-in;
+    background-color: #232c29;
+    width: 2px;
+    line-height: 1px;
+    font-size: 1px;
+}
+.ping-item2:hover .pro-line{
+	height: 490px;
+}
+.cline{
+	height: 2px;
+    overflow: hidden;
+    line-height: 1px;
+    font-size: 1px;
+    background-color: #232c29;
+    /*background-color: red;*/
+    position: absolute;
+    width: 55px;
+}
+.cline1{
+	transition: width 0.5s ease-in 0.3s;
+    left: 356px;
+    bottom: 93px;
+}
+.cline2{
+	transition: width 0.5s ease-in 0.45s;
+    right: 557px;
+    bottom: 144px;
+}
+.cline3{
+	transition: width 0.5s ease-in 0.9s;
+    left: 356px;
+    bottom: 209px;
+}
+.cline4{
+	width: 48px;
+	transition: width 0.5s ease-in 1.05s;
+    right: 557px;
+    bottom: 252px;
+}
+.cline5{
+    transition: width 0.5s ease-in 1.2s;
+    left: 356px;
+    bottom: 322px;
+     width: 44px;
+}
+.cline6{
+	width: 66px;
+    transition: width 0.5s ease-in 1.35s;
+    right: 557px;
+    bottom: 355px;
+}
+.cline7{
+    transition: width 0.5s ease-in 1.5s;
+    left: 356px;
+    bottom: 444px;
+}
+.cline8{
+    transition: width 0.5s ease-in 1.6s;
+    right: 557px;
+    bottom: 481px;
+}
+
+.citem{
+	border: 1px solid #3d4b46;
+    position: absolute;
+}
+.citem:hover{
+	border: 1px solid #fff;
+}
+.citem:hover a{
+	color: #fff;
+}
+.citem1{
+	width: 180px;
+    height: 65px;
+    transform-origin: left;
+    left: 411px;
+    bottom: 60px;
+}
+.citem1>span{
+	display: inline-block;
+	background-color: #68b92e;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    right: -5px;
+    top: 7px;
+    padding: 5px 8px;
+}
+.citem2>span{
+	display: inline-block;
+	background-color: #68b92e;
+    color: #fff;
+    position: absolute;
+    left: -5px;
+    top: 7px;
+     padding: 3px 8px;
+}
+.citem2{
+	width: 146px;
+    height: 83px;
+    transform-origin: right;
+    right: 612px;
+    bottom: 107px;
+}
+.citem>a{
+	text-align: left;
+	display: inline-block;
+	font-size: 12px;
+    color: #989898;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-top: 35px;
+    font-family: "Microsoft YaHei";
+    -webkit-box-sizing: border-box;
+    padding-left: 5px ;
+}
+.citem a>span{
+	width: 4px;
+    height: 4px;
+   /*margin-top: 35px;*/
+    font-size: 0px;
+    background-color: rgb(111, 186, 44);
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.citem3{
+    bottom: 168px;
+}  
+.citem4{
+	right: 605px;
+    bottom: 214px;
+}  
+.citem5{
+	width: 140px;
+	left: 400px;
+    bottom: 279px;
+}
+.citem6{
+    bottom: 315px;
+    right: 623px;
+} 
+.citem7{
+	width: 268px;
+	height: 106px;
+    bottom: 404px;
+}
+.citem>div{
+	margin-top: 35px;
+}
+.citem>div>a{
+	text-align: left;
+	display: inline-block;
+	font-size: 12px;
+    color: #989898;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-family: "Microsoft YaHei";
+    -webkit-box-sizing: border-box;
+    padding-left: 5px ;
+}
+.citem8{
+	width: 268px;
+	height: 106px;
+    bottom: 442px;
+}
+.ping-item3{
+	overflow: hidden;
+
+	background: url(../img/index-content-3-bg0.jpg) no-repeat;
+}
+.zhongjian{
+	left: 50%;
+	margin-left: -60px;
+	width: 117px;
+	position: absolute;
+	top: 120px;
+	text-align: center;
+}
+.zhongjian h2{
+	color: white;
+	line-height: 28px;
+	font-size: 23px;
+	font-weight: 500;
+}
+.ping3-content{
+	position: relative;
+	width: 100%;
+	height: 422px;
+	top: 144px;
+	border: 1px solid transparent;
+}
+.con-item1{
+	position: absolute;
+	left: -20px;
+    top: 31px;
+	border-right: 3px solid #6fba2c;
+    padding-right: 20px;
+}
+.con-item1>h2{
+	color: #fff;
+    font-size: 20px;
+    text-align: right;
+    background-color: rgba(111,186,44,0.4);
+    height: 31px;
+    line-height: 29px;
+    width: 338px;
+    padding-right: 20px;
+}
+.con-item-con{
+	color: #fff;
+    font-size: 14px;
+    padding-left: 20px;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 8px;
+}
+.con-right{
+	float: right;
+    color: #fff;
+    padding-right: 20px;
+}
+.con-right strong{
+	margin-top: 10px;
+    vertical-align: bottom;
+    line-height: 35px;
+    color: #6fba2c;
+    font-size: 32px;
+    font-weight: normal;
+}
+.con-item2{
+	left: -100px;
+    top: 365px;
+}
+.con-item3{
+	left: 600px;
+	padding-right: 0px;
+	padding-left: 20px;
+	border-right:0px solid #6fba2c;
+	border-left:3px solid #33675B;
+}
+.con-item3>h2{
+	text-align: left;
+    background-color: rgba(111,186,44,0.4);
+    height: 31px;
+    line-height: 29px;
+    width: 338px;
+    padding-left: 20px;
+}
+.con-item4{
+	left: 550px;
+    top: 350px;
+    padding-right: 0px;
+	padding-left: 20px;
+	border-right:0px solid #6fba2c;
+	border-left:3px solid #33675B;
+}
+.con-item4>h2{
+	text-align: left;
+    background-color: rgba(111,186,44,0.4);
+    height: 31px;
+    line-height: 29px;
+    width: 338px;
+    padding-left: 20px;
+}
+.con-main-img{
+	margin-top: 66px;
+	position: relative;
+}
+.kuai{
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+.kuai-1{
+	border-top: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    right: 285px;
+    top: -64px;
+}
+.kuai-2{
+	border-top: 50px solid blue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    right: 385px;
+    top: 136px;
+}
+.kuai-3{
+	border-top: 50px solid blue;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    right: 285px;
+    top: 136px;
+}
+.kuai-4{
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 50px solid green;
+    right: 335px;
+    top: 93px;
+}
+.kuai-5{
+	border-top: 100px solid green;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    right: 334px;
+    top: 193px;
+}
+.kuai-6{
+	border-top: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 50px solid green;
+    right: 434px;
+    top: 93px;
+}
+.kuai-7{
+	border-bottom: 100px solid green;
+    right: 489px;
+}
+.kuai-8{
+	border-top: 50px solid green;
+	right: 590px;
+}
+.kuai-9{
+	border-top: 50px solid green;
+	right: 489px;
+}
+.kuai-10{
+	border-bottom: 50px solid blue;
+	right: 540px;
+}
+.kuai-11{
+	border-top: 100px solid blue;
+	right: 541px;
+}
+.kuai-12{
+	border-bottom: 50px solid blue;
+	right: 642px;
+}
+.ping-item4{
+
+	overflow: hidden;
+	background: url(../img/index-content-5-bg0.jpg) no-repeat;
+}
+.ping4-txt{
+	margin-top: 70px;
+	text-align: center;
+	color: white;
+}
+.ping4-txt h2{
+	font-size: 25px;
+	color: white;
+	line-height: 40px;
+	font-weight: normal;
+}
+.ping4-txt span{
+	font-size: 14px;
+}
+.ping4-txt2{
+	margin-top:40px;
+}
+.pinpai-logo{
+	
+}
+.pinpai-logo h3{
+	color: green;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 500;
+}
+.pinpai-item{
+	margin-top: 20px;
+	width: 148px;
+    height: 43px;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.45);
+    vertical-align: top;  
+    /*background: green;*/
+    cursor: pointer;
+}
+.pinpai-item::after{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #000;
+    border-width: 4px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    right: 0px;
+    bottom: 0px;
+}
+.pinpai-item::before{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #000;
+    border-width: 4px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    left: 0px;
+    top: 0px;
+}
+.item_text{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 43px;
+    text-align: center;
+    text-decoration: underline;
+    -webkit-box-sizing: border-box;
+}
+.hangye{
+	float: left;
+	display: inline-block;
+	width: 218px;
+	height: 45px;
+	margin-right: 35px;
+	/*overflow: hidden;*/
+}
+.anquan{
+	width: 100%;
+	height: 82px;
+	float: left;
+	margin-top: 50px;
+}
+.anquan .pinpai-item{
+	height: 43px;
+} 
+.pinpai-item3{
+	width: 100%;
+	height: 100%;
+}
+.ping-item5{
+		
+	background: url(../img/index-content-4-bg0.jpg) no-repeat;
+}
+.ping5-item{
+	position: absolute;
+    width: 242px;
+    cursor: pointer;
+    left:0px;
+    top: 70px;
+    text-align: center;
+}
+.ping5-item h3{
+	color: #fff;
+    font-size: 18px;
+    margin-top: 16px;
+}
+.info{
+	color: #fff;
+    text-align: left;
+    width: 210px;
+    /*height: 110px;*/
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity 0.5s linear 0s;
+    opacity: 0;
+}
+.ping5-item2{
+    left: 265px;
+}
+.ping5-item2 .pbg-2{
+    background-position: 0 -1190px;
+    background-color: #429eeb;
+}
+.ping5-item3{
+	left: 526px;
+}
+.ping5-item3 .pbg-2{
+    background-position: 0 -680px;
+}
+.ping5-item4{
+	left: 787px;
+}
+.ping5-item4 .pbg-2{
+	background-position: 0 -1020px;
+	background-color: #429eeb;
+}
+.ping5-item5{
+	top: 390px;
+}
+.ping5-item5 .pbg-2{
+	background-color: #429eeb;
+	background-position: 0 -170px;
+}
+.ping5-item6{
+	left:265px;
+}
+.ping5-item6 .pbg-2{
+	background-position: 0 0px;
+	background-color: #6bb92d;
+}
+.ping5-item7{
+	left: 526px;
+}
+.ping5-item7 .pbg-2{
+	background-position: 0 -510px;
+}
+.ping5-item8{
+	left: 787px;
+}
+.ping5-item8 .pbg-2{
+	background-position: 0 -340px;
+	background-color: #6bb92d;
+}
+.pbg{
+	width: 194px;
+    height: 194px;
+    border-radius: 50%;
+    margin: 0px auto;
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    left: 24px;
+    top: -12px;
+    transition: opacity 0.5s linear 0s;
+    opacity: 0;
+}
+.pbg-2{
+	background-image: url(../img/customer_2016_all_spirit.png);
+    background-position: 0 -850px;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    background-color: #6bb92d;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.ping-item6{
+	/*display: block;*/
+	background: url(../img/index-content-7-bg0.jpg) no-repeat;
+}
+.ping-item6 .container{
+	width: 1050px;
+}
+.zhichi{
+	width: 260px;
+    height: 444px;
+    position: absolute;
+    cursor: pointer;
+    top: 110px;
+}
+.zhichi:hover .topbar{
+	border: 2px solid blue;
+	border-bottom: none;
+}
+.zhichi:hover .middlebar{
+	border-top: 1px solid blue;
+}
+.zhichi:hover .bottombar{
+	border: 2px solid blue;
+	 border-top: none;
+}
+.topbar{
+	width: 260px;
+    height: 95px;
+    border: 2px solid #fff;
+    border-bottom: none;
+    position: absolute;
+    top: 0;
+}
+.bottombar{
+	width: 260px;
+    height: 95px;
+    border: 2px solid #fff;
+    border-top: none;
+    position: absolute;
+    bottom: 0;
+}
+.middlebar{
+	width: 216px;
+    height: 1px;
+    overflow: hidden;
+    font-size: 1px;
+    border-top: 1px solid #727272;
+    position: absolute;
+    left: 22px;
+    top: 184px;
+}
+.zhichi-txt{
+	float: right;
+    margin: 60px 40px 0px 0px;
+    height: 89px;
+    width: 134px;
+    display: inline-block;
+    background-image: url(../img/index-content_all_spirit.png);
+    background-position: -134px -136px;
+}
+.zhichi p{
+	color: #fff;
+    clear: both;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 43px;
+    padding-top: 81px;
+}
+.zhichi p strong{
+	display: block;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.email-txt{
+	color: #fff;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 43px;
+    padding-top: 30px;
+}
+.email-txt h3{
+	color: #fff;
+    font-size: 14px;
+    padding-top: 12px;
+}
+.zhichi2{
+	left: 400px;
+}
+.zhichi2 .zhichi-txt{
+	background-position: 0 -136px;
+}
+.zhichi3{
+	left: 800px;
+}
+.zhichi3 .zhichi-txt{
+	background-position: -272px 0;
+}
+.foot-bot{
+	width: 1046px;
+    height: 58px;
+    border: 2px solid rgba(255,255,255,0.2);
+    position: absolute;
+    bottom: 80px;
+    /*margin: 10px 0px 0px 77px;*/
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+.foot-bot a{
+	display: inline-block;
+	margin-top: 30px;
+	float: left;
+	color: white;
+	padding-left: 20px;
+}
+.foot-bot h2{
+	display: inline-block;
+	margin-top: 20px;
+	padding-right: 30px;
+}
+.fix-box{
+	position: fixed;
+    right: 0;
+    bottom: 90px;
+    width: 40px;
+    z-index: 1300;
+    cursor: pointer;
+}
+.fix-item{
+	width: 40px;
+    background-color: rgba(111,186,44,0.9);
+    height: 40px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+    background-image: url(../img/index_shortcut_all_spirit.png);
+}
+.swzx{
+	background-position: -241px -80px;
+}
+.jszx{
+	background-position: -201px -160px;
+}
+
+.rxdh{
+	background-position: -241px -121px;
+}
+.gfwx{
+    background-position: -80px 0;
+}
+.gfbk:hover{
+	 background-position: -203px 0;
+	 background-color: rgba(1,147,222,1);
+}
+.gfwx:hover{
+	 background-position: -40px 0;
+	 background-color: rgba(1,147,222,1);	
+}
+.rxdh:hover{
+	 background-position: -241px -40px;
+	 background-color: rgba(1,147,222,1);	
+}
+.jszx:hover{
+	 background-position:-201px -160px;
+	 background-color: rgba(1,147,222,1);	
+}
+.swzx:hover{
+	 background-position:-241px -80px;
+	 background-color: rgba(1,147,222,1);	
 }

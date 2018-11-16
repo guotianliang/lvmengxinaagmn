@@ -1,0 +1,113 @@
+.foot-list{
+	width: 100%;
+    min-height: 284px;
+    height: auto;
+   
+    overflow: hidden;
+}
+.foot-list .container{
+	width: 950px;
+	height: 284px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background: #4C4C4C;
+}
+.foot-item{
+	float: left;
+    width: 153px;
+    padding-left: 80px;
+    border-right: 1px solid #595959;
+}
+.foot-item dt a{
+	color: #6DBF23;
+}
+.foot-item dd a{
+	color: #C6C6C6;
+	cursor: pointer;
+}
+.foot-item dd a:hover{
+	color: #6DBF23;
+}
+.foot-item dt{
+	padding: 35px 0 20px;
+}
+.foot-item dd{
+	line-height: 26px;
+    font-size: 12px;
+}
+.foot-list .fot-last{
+	border-right: 0px solid #595959;
+}
+.footer{
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.footer-ul{
+	float: left;
+    line-height: 26px;
+    margin-left: -12px;
+}
+.footer-ul li{
+	    float: left;
+    padding: 0px 12px;
+    background: url(../img/dot04.jpg) right center no-repeat;
+}
+.footer-ul li a{
+	color: #6fba2c;
+	font-size: 14px;
+}
+.last-footer{
+	float: left;
+	color: #666666;
+	padding-bottom: 20px;
+}
+.fix-box{
+	position: fixed;
+    right: 0;
+    bottom: 90px;
+    width: 40px;
+    z-index: 1300;
+    cursor: pointer;
+}
+.fix-item{
+	width: 40px;
+    background-color: rgba(111,186,44,0.9);
+    height: 40px;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+    background-image: url(../img/index_shortcut_all_spirit.png);
+}
+.swzx{
+	background-position: -241px -80px;
+}
+.jszx{
+	background-position: -201px -160px;
+}
+
+.rxdh{
+	background-position: -241px -121px;
+}
+.gfwx{
+    background-position: -80px 0;
+}
+.gfbk:hover{
+	 background-position: -203px 0;
+	 background-color: rgba(1,147,222,1);
+}
+.gfwx:hover{
+	 background-position: -40px 0;
+	 background-color: rgba(1,147,222,1);	
+}
+.rxdh:hover{
+	 background-position: -241px -40px;
+	 background-color: rgba(1,147,222,1);	
+}
+.jszx:hover{
+	 background-position:-201px -160px;
+	 background-color: rgba(1,147,222,1);	
+}
+.swzx:hover{
+	 background-position:-241px -80px;
+	 background-color: rgba(1,147,222,1);	
+}

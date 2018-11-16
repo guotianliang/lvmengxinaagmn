@@ -6,6 +6,9 @@
 	height: 94px;
 	box-shadow: 0 1px 5px #bbb;
 }
+.header a{
+	color: black;
+}
 .container{
 	width: 1086px;
 	margin: 0 auto;

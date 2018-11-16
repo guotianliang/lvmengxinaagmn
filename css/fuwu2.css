@@ -1,0 +1,45 @@
+.column_right>h2{
+	font-size: 18px;
+    color: #064738;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.right-tit{
+	padding: 13px 0 30px;
+}
+.right-tit>a{
+	background: #064738;
+    color: #fff;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 20px;
+}
+.right-bottom{
+	margin-bottom: 30px;
+}
+.right-bottom>h2{
+	height: 33px;
+    margin-bottom: 30px;
+    line-height: 33px;
+    background: #064738;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+}
+.right-bottom ul li{
+	height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+    border-bottom: 1px dotted #bdbdbd;
+    cursor: pointer;
+}
+.right-bottom ul li a{
+	color: black;
+}
+.right-bottom ul li span{
+	float: right;
+}

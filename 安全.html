@@ -49,12 +49,12 @@
 					</div>
 					<ul class="header-nav">
 						<li class="shouye">
-							<a>首页
+							<a href="index.html">首页
 							</a>
 							<div class="h-line"></div>
 						</li>
 						<li>
-							<a>解决方案
+							<a href="方案.html">解决方案
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -89,7 +89,7 @@
 							</dl>
 						</li>
 						<li>
-							<a>安全产品
+							<a href="安全.html">安全产品
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -108,7 +108,7 @@
 							</dl>
 						</li>
 						<li class="sever">
-							<a>服务与支持
+							<a href="服务支持.html">服务与支持
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -140,7 +140,7 @@
 							</dl>
 						</li>
 						<li>
-							<a>绿盟云
+							<a href="绿盟云.html">绿盟云
 							</a>
 							<div class="h-line"></div>
 						</li>
@@ -157,7 +157,7 @@
 							</dl>
 						</li>
 						<li class="yanjiu">
-							<a>安全研究
+							<a href="安全研究-研究方向.html">安全研究
 							</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
@@ -184,7 +184,7 @@
 							</dl>
 						</li>
 						<li>
-							<a>关于我们</a>
+							<a href="关于我们.html">关于我们</a>
 							<div class="h-line"></div>
 							<dl class="header-xiala">
 								
@@ -252,7 +252,7 @@
 								<span class="open"  style="display: block;">-</span>
 								<a href="javascipt:;">检测防御类</a>
 							</div>
-							<div class="safe-txt one">
+							<div class="safe-txt one" style="display: block;">
 								<dl>
 									<dt>
 										<img src="img/551ba96ff0560.jpg"/>
@@ -755,10 +755,16 @@
 					    <script type="text/javascript">
 					    	$(function(){
 					    		$(".safe-tit").click(function(){
-					    			$(this).find(".off").toggle()
-					    			$(this).find(".open").toggle()
-//					    			alert($(this).index()/2)
-//					    			$(".safe-txt").eq($(this).index()/2).toggle()
+//					    			$(".safe-tit").find(".off").show()
+                                    if($(this).find(".off").css("display")=="block"){
+                                    	$(this).find(".off").hide()
+					    			$(this).find(".open").show()
+                                    }else{
+                                    	$(this).find(".off").show()
+					    			$(this).find(".open").hide()
+                                    }
+					    			
+//					    			
 					    			if($(".safe-txt").eq($(this).index()/2).css("display")=="block"){
 										$(".safe-txt").eq($(this).index()/2).hide()
 										
@@ -770,9 +776,7 @@
 					    	})
 					    </script>
 					</div>
-				</div>
-			</div>
-			<div class="foot-list">
+					<div class="foot-list">
 						<div class="container">
 							<dl class="foot-item">
 								<dt>
@@ -909,6 +913,9 @@
 							</dl>
 						</div>
 					</div>
+				</div>
+			</div>
+			
 	
 			<!--主题结束-->
 			<div class="footer">

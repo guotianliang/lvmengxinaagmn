@@ -1,0 +1,36 @@
+/* footlist开始 */
+.footlist{
+	width: 100%;
+    min-height: 284px;
+    height: auto;
+    background: #4C4C4C;
+    overflow: hidden;
+}
+.footlist-c{
+	margin-bottom: 10px;
+	width: 950px;
+	 margin: 0 auto;
+	color: #C6C6C6;
+}
+.footlist dl{
+	float: left;
+    width: 153px;
+    padding-left: 80px;
+    border-right: 1px solid #595959;
+}
+.footlist dl dt{
+	padding: 35px 0 20px;
+	color: #6DBF23;
+}
+.footlist dl dd{
+	line-height: 26px;
+    font-size: 12px;
+	cursor: pointer;
+}
+.footlist dl dd:hover{
+	color: #6DBF23;
+}
+.footlist .last{
+		width: 130px;
+    border: none;
+}
